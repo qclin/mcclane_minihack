@@ -3,7 +3,7 @@ $( document ).ready(function() {
     $('<div class = "inputForm">').appendTo('Body');
     $('<input = "text" id = "userNum" placeholder = "enter your digits "></input> ').appendTo($('.inputForm'));
     
-    $('<select id = "type"><option value="jokes">jokes</option><option value="pics">pics</option><option value="animals">animals</option></select>').appendTo($('.inputForm'));
+    $('<select id = "type"><option value="jokes">jokes</option><option value="pics">pics</option></select>').appendTo($('.inputForm'));
 
     $('<br><button id = "submit">for a good time</button>').appendTo($('.inputForm'));
 
